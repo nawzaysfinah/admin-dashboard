@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: Roboto, sans-serif;
+ }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    background-color: #0ea5e9;
+    color: white;
+    height: 100vh;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;
+}
+.logo-filter {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(188deg) brightness(113%) contrast(101%);
+    margin-right: 10px;
+}
+
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 10px;
+    font-size: 16px;
+    list-style: none;
+}
+
+.sidebar-items li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: bold;
+}
+
+.material-icons-outlined {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.main {
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-left {
+    justify-content: start;
+}
+
+.navbar-right {
+    list-style: none;
+    justify-content: end;
+    flex-wrap: nowrap;
+}
+
+.form-input {
+    display: flex;
+    width: 500px;
+    height: 30px;
+    background-color: #d4d4d4;
+    border-radius: 20px;
+    border: 1px solid #d4d4d4;
+    margin-left: 20px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.right {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 1fr;
+    
+}
+
+.btn {
+    width: 70px;
+    height: 35px;
+    border: 1px solid #0ea5e9;
+    border-radius: 20px;
+    background-color: #0ea5e9;
+    color: white;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.avatar-navbar {
+    margin: 0px 20px;
+    border-radius: 50%;
+}
+
+.avatar-welcome {
+    margin: 0px 20px;
+    border-radius: 50%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #d4d4d4;
+}
+
+.content-left, .content-right {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+    width: 80%;
+    height: 200px;
+    margin: 15px 0;
+    background-color: white;
+    border-radius: 20px;
+    border-left: 5px solid #ca8a04;
+}
+
+
+.icons {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #57534e;
+    margin: 10px 0;
+}
+
+h4 {
+    margin-left: 30px;
+}
+
+.content-right {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.ann-card, .trend-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ann-card p {
+    font-size: 12px;
+}
+
+.trend-card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.trend-card li {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 10px;
+}
+.trend-text {
+    margin-left: 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
